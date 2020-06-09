@@ -1,0 +1,16 @@
+h1 {
+    color: red;
+    
+}
+#h2 {
+    color: blue;
+}
+
+.bye {
+    color: green;
+}
+
+/* href가 있는 것만 바꿔달라는 의미이다. */
+a[href] {
+    color: magenta;
+}

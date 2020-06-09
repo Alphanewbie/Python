@@ -1,0 +1,19 @@
+.container {
+    background-color: pink;
+    /* 반응형 */
+    /* https://flexboxfroggy.com/#ko */
+    display: flex;
+    /* justify-content - 이 요소 안에 있는 것들을 정렬한다. */
+    /* justify-content: end; */ /*default값*/
+    /* center 가운데로 정렬. */
+    /* justify-content: center; */
+    /* 화면이 늘거나, 줄어들어도 같은 위치를 가지고 있다. */
+    justify-content: space-between;
+}
+
+.item {
+    width: 50px;
+    height: 50px;
+    background-color: royalblue;
+    display: inline-block;
+}
