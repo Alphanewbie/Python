@@ -6,8 +6,10 @@ from bs4 import BeautifulSoup
 # 'Node.js' 는 Nodejs
 stacklist = ['JavaScript','Visual Studio Code','Node.js']
 for item in stacklist:
+
     item=item.replace(" ","-")
     item=item.replace(".","")
+    
     url = f'https://stackshare.io/{item}'
     
     responce = requests.get(url)
