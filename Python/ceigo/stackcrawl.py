@@ -24,6 +24,7 @@ for item in stacklist:
     # stackresponce = requests.get(link[0].get('href'))
     # stacksoup = BeautifulSoup(stackresponce.text, 'html.parser')
 
+    # 스킬 설명 크롤링
     imgSelect = soup.select(
         'img'
     )
